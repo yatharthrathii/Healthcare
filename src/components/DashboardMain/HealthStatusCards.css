@@ -1,0 +1,60 @@
+.health-status-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.health-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  color: #333;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  width: 250px;
+}
+
+.health-card:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.health-card-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.health-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.health-label {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.health-card-bottom {
+  margin-top: 10px;
+}
+
+.health-date {
+  font-size: 12px;
+  margin-bottom: 6px;
+  color: #888;
+}
+
+.health-progress-bar {
+  height: 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.health-progress {
+  height: 100%;
+  transition: width 0.3s ease;
+  border-radius: 4px;
+}

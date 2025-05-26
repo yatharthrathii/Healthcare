@@ -1,0 +1,47 @@
+.anatomy-section {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anatomy-image-wrapper {
+  position: relative;
+  width: 300px;
+}
+
+.anatomy-section .anatomy-icon {
+  margin-left: 90%;
+  cursor: pointer;
+}
+
+.anatomy-img {
+  width: 100%;
+  display: block;
+}
+
+.anatomy-label {
+  position: absolute;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+
+.heart {
+  background: #5d5fef;
+  top: 80px;
+  left: 160px;
+}
+
+.leg {
+  background: #0dcaf0;
+  bottom: 60px;
+  left: 55px;
+}
