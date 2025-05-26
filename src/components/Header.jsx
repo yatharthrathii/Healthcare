@@ -13,11 +13,14 @@ const Header = () => {
             </div>
             <div className="header-right">
                 <div className="notify-icon">🔔</div>
-                <img
-                    src="/avatar.png"
-                    alt="User avatar"
-                    className="avatar"
-                />
+                <div className="header-name">
+                    <img
+                        src="/avatar.png"
+                        alt="User avatar"
+                        className="avatar"
+                    />
+                    <h1>Yatharth Rathi</h1>
+                </div>
                 <button className="add-btn">+</button>
             </div>
         </header>

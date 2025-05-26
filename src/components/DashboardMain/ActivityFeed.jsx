@@ -8,19 +8,19 @@ const ActivityFeed = () => {
       <div className="activity-bars-wrapper">
         <div className="activity-day-bar">
           <div className="activity-bar">
-            <div className="activity-bar-fill" style={{ height: "60px" }}></div>
+            <div className="activity-bar-fill" ></div>
           </div>
           <span className="day-label">Mon</span>
         </div>
         <div className="activity-day-bar">
           <div className="activity-bar">
-            <div className="activity-bar-fill" style={{ height: "80px" }}></div>
+            <div className="activity-bar-fill" style={{ height: "40px" }}></div>
           </div>
           <span className="day-label">Tue</span>
         </div>
         <div className="activity-day-bar">
           <div className="activity-bar">
-            <div className="activity-bar-fill active" style={{ height: "100px" }}></div>
+            <div className="activity-bar-fill active" ></div>
           </div>
           <span className="day-label">Wed</span>
         </div>
@@ -32,19 +32,19 @@ const ActivityFeed = () => {
         </div>
         <div className="activity-day-bar">
           <div className="activity-bar">
-            <div className="activity-bar-fill" style={{ height: "40px" }}></div>
+            <div className="activity-bar-fill" ></div>
           </div>
           <span className="day-label">Fri</span>
         </div>
         <div className="activity-day-bar">
           <div className="activity-bar">
-            <div className="activity-bar-fill" style={{ height: "90px" }}></div>
+            <div className="activity-bar-fill" style={{ height: "80px" }}></div>
           </div>
           <span className="day-label">Sat</span>
         </div>
         <div className="activity-day-bar">
           <div className="activity-bar">
-            <div className="activity-bar-fill" style={{ height: "50px" }}></div>
+            <div className="activity-bar-fill" ></div>
           </div>
           <span className="day-label">Sun</span>
         </div>

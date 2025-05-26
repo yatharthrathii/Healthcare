@@ -11,7 +11,7 @@ const HealthStatusCards = () => {
           <span className="health-label">Lungs</span>
         </div>
         <div className="health-card-bottom">
-          <div className="health-date">Date: 26 Okt 2021</div>
+          <div className="health-date">Date: 26 Oct 2021</div>
           <div className="health-progress-bar">
             <div className="health-progress" style={{ width: "20%", backgroundColor: "#ef5d5d" }}></div>
           </div>
@@ -24,7 +24,7 @@ const HealthStatusCards = () => {
           <span className="health-label">Teeth</span>
         </div>
         <div className="health-card-bottom">
-          <div className="health-date">Date: 26 Okt 2021</div>
+          <div className="health-date">Date: 26 Oct 2021</div>
           <div className="health-progress-bar">
             <div className="health-progress" style={{ width: "80%", backgroundColor: "#4cd964" }}></div>
           </div>
@@ -37,7 +37,7 @@ const HealthStatusCards = () => {
           <span className="health-label">Bone</span>
         </div>
         <div className="health-card-bottom">
-          <div className="health-date">Date: 26 Okt 2021</div>
+          <div className="health-date">Date: 26 Oct 2021</div>
           <div className="health-progress-bar">
             <div className="health-progress" style={{ width: "30%", backgroundColor: "#f57f17" }}></div>
           </div>

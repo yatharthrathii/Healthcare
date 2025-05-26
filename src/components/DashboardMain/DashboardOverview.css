@@ -48,9 +48,20 @@
   padding: 20px;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .dashboard-grid {
+    top: 40px;
+  }
+
+  .dashboard-grid .anatomy-and-health {
+    flex-direction: row;
+  }
+
+}
+
 @media (max-width: 1024px) {
   .dashboard-grid {
-    margin-top: 24px;
+    margin-top: 45px;
     position: relative;
     left: 0;
     padding: 15px;

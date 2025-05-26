@@ -76,6 +76,16 @@
   font-size: 13px;
 }
 
+.calendar-card h4 {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.calendar-card p {
+  font-size: 15px;
+  margin-top: 4px;
+}
+
 .dentist-card {
   background-color: #4a5eff;
   color: white;
@@ -92,18 +102,18 @@
 
   .calendar-weekdays,
   .calendar-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(7, 1fr);
   }
 
   .calendar-box {
-    font-size: 11px;
-    min-height: 50px;
-    padding: 4px;
+    font-size: 10px;
+    min-height: 60px;
+    padding: 2px 0;
   }
 
   .calendar-box p {
-    font-size: 10px;
-    padding: 2px 4px;
+    font-size: 9px;
+    padding: 6px 2px;
   }
 
   .calendar-title {

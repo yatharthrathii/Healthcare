@@ -58,3 +58,10 @@
   transition: width 0.3s ease;
   border-radius: 4px;
 }
+
+@media (max-width: 768px) {
+  .health-status-cards {
+    justify-content: center;
+    align-items: center;
+  }
+}

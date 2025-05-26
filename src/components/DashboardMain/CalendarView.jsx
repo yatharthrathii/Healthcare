@@ -66,7 +66,7 @@ const CalendarView = () => {
           <p>Dr. Maheshwari</p>
         </div>
         <div className="calendar-card physiotherapy-card">
-          <h4>🧑‍⚕️ Physiotherapy Appointment</h4>
+          <h4>🧑‍⚕️ Physiotherapy</h4>
           <p>12:00 - 13:00</p>
           <p>Dr. Rathi</p>
         </div>

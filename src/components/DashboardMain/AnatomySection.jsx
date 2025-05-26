@@ -8,8 +8,10 @@ const AnatomySection = () => {
       <div className="anatomy-image-wrapper">
         <BsZoomIn className="anatomy-icon" />
         <img src={anatomyImage} alt="Anatomy" className="anatomy-img" />
-        <span className="anatomy-label heart">Healthy Heart</span>
-        <span className="anatomy-label leg">Healthy Leg</span>
+        <span className="anatomy-label heart">Heart</span>
+        <span className="anatomy-label Bone">Bone</span>
+        <span className="anatomy-label lunge">lunge</span>
+        <span className="anatomy-label teeth">teeth</span>
       </div>
     </div>
   );
