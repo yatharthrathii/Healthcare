@@ -37,8 +37,8 @@ const CalendarView = () => {
         <div className="calendar-box">
           <strong>28</strong>
           <p className="p-color">11:00</p>
-          <p className="p-color">14:00</p>
           <p >...</p>
+          <p className="p-color">14:00</p>
         </div>
         <div className="calendar-box">
           <strong>29</strong>
